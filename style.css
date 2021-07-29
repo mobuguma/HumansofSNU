@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+:root {
+  --pointColor: rgb(0, 0, 104);
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  -ms-overflow-style: none; 
+} 
+
+::-webkit-scrollbar {
+  display: none
+}
+
+.white {
+  width: 100%;
+  height: 35px;
+}
+
+.headline {
+  left: -5px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 10px 10px 10px;
+}
+
+.subline {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.mother {
+  text-align: center;
+}
+
+.picture {
+  display: inline-block;
+  width: 12%;
+  padding: 3px;
+  text-align: center;
+}
+
+.picture:hover {
+  opacity: 50%;
+}
+
+.inner {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.picture img {
+  position: absolute;
+  top: 0;
+  left: -25%;
+
+  max-height: 100%;
+  width: auto;
+}
+
+.menu {
+  padding: 0 10px 10px 10px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1.5px solid var(--pointColor);
+  text-align: center;
+}
+
+.photowall {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  padding: 10px;
+}
+
+.photowall:hover {
+  color: silver;
+}
+
+
+.recruitwall {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  padding: 10px;
+}
+
+.recruitwall:hover {
+  color: silver;
+}
+
+/* --- */
+
+.recruiting {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  display: none;
+  background-color: var(--pointColor);
+  text-align: center;
+}
+
+.blank {
+  height: 70px;
+  width: 100%;
+}
+
+.messageH {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.messageS {
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+
+.messageM {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.messageN {
+  width: 95%;
+  height: auto;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  /* text-align: center;
+  vertical-align: top; */
+}
+
+.category {
+  display: inline-block;
+  width: 20%;
+  margin: 20px 20px;
+  padding: 50px 30px;
+  background-color: white;
+}
+
+.category img {
+  max-width: 50%;
+  height: auto;
+}
+
+.category img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
